@@ -20,7 +20,8 @@ Telegram bot for remotely waking up computers in a server's local network using 
 3. Config and save wol_bot.py with BOT_TOKEN and chat_id
 
 3. Run the bot:
-   ```python wol_bot.py
+   ```bash
+      python wol_bot.py
 
 4. Send the command to your bot:
 /wol AA:BB:CC:DD:EE:FF
