@@ -34,3 +34,5 @@ Telegram-bot for remotely waking up computers in a server's local network using 
 10. Send the command to your bot:
 "/wol AA:BB:CC:DD:EE:FF"
 The MAC address must be specified for the computer you want to wake up from sleep.
+
+NOTE: Remotely waking-up-computers MUST BE in a server local network use only!
