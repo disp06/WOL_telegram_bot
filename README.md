@@ -22,15 +22,16 @@ Telegram-bot for remotely waking up computers in a server's local network using 
 5. Send a simple random message to your bot.
 
 6. Visit this URL:
+   Replace BOT_TOKEN to your actual token in URL below:
    https://api.telegram.org/botBOT_TOKEN/getUpdates
    Find your chat_id: Look for the "id" field in the JSON response.
    
-7. Open wol_bot.py in a text editor to replace BOT_TOKEN and your_chat_id with your actual token and actual your_chat_id
+8. Open wol_bot.py in a text editor to replace BOT_TOKEN and your_chat_id with your actual token and actual your_chat_id
 
-8. Run the bot:
+9. Run the bot:
    ```bash
    python wol_bot.py
 
-9. Send the command to your bot:
+10. Send the command to your bot:
 "/wol AA:BB:CC:DD:EE:FF"
 The MAC address must be specified for the computer you want to wake up from sleep.
