@@ -29,7 +29,7 @@ Telegram-bot for remotely waking up computers in a server's local network using 
 
 9. Run the bot:
    ```bash
-   python wol_bot.py
+   python wol_bot.py --token "YOUR_TOKEN" --chat-ids "123456789"
 
 10. Send the command to your bot:
 "/wol AA:BB:CC:DD:EE:FF"
