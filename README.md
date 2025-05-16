@@ -14,7 +14,6 @@ Telegram bot for remotely waking up computers in a server's local network using 
 1. Download release or clone the repository:
    ```bash
    git clone https://github.com/your-username/wol-telegram-bot.git
-   cd wol-telegram-bot 
 3. 
    ```bash  
    Run pip install -r requirements.txt
