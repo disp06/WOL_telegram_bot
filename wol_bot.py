@@ -5,7 +5,7 @@ from wakeonlan import send_magic_packet
 
 # Настройки
 BOT_TOKEN = "token"  # Example: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
-ALLOWED_CHAT_IDS = [ВАШ_CHAT_ID]  # Example: [123456789]
+ALLOWED_CHAT_IDS = [YOUR_CHAT_ID]  # Example: [123456789]
 
 # Логирование
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
