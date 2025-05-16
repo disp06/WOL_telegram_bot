@@ -25,9 +25,13 @@ Telegram-bot for remotely waking up computers in a server's local network using 
    https://api.telegram.org/botBOT_TOKEN/getUpdates
    Find your chat_id: Look for the "id" field in the JSON response.
    
-8. Open wol_bot.py in a text editor to replace BOT_TOKEN and your_chat_id with your actual token and actual your_chat_id
+8. Open wol_bot.py in a text editor to replace BOT_TOKEN and your_chat_id with your actual token and actual your_chat_id and run:
+   ```bash
+   python wol_bot.py
 
-9. Run the bot:
+OR
+
+9. Run the bot with arguments:
    ```bash
    python wol_bot.py --token "YOUR_TOKEN" --chat-ids "123456789"
 
