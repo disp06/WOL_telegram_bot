@@ -1,6 +1,6 @@
 # Wake-on-LAN Telegram Bot  
 
-Telegram bot for remotely waking up computers in a server's local network using Wake-on-LAN (WOL).  
+Telegram-bot for remotely waking up computers in a server's local network using Wake-on-LAN (WOL).  
 
 ---
 
