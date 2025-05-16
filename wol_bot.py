@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 from wakeonlan import send_magic_packet
 
 # Config
-BOT_TOKEN = "token"  # Example: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+BOT_TOKEN = "BOT_TOKEN"  # Example: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 ALLOWED_CHAT_IDS = [YOUR_CHAT_ID]  # Example: [123456789]
 
 # Log
@@ -28,7 +28,7 @@ async def wol(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await update.message.reply_text(f"⚠️ Error: {str(e)}")
 
 def main():
-    app = Application.builder().token(BOT_TOKEN).build()
+    app = Application.builder().token(BOT_TOKEN).build() #insert "BOT_TOKEN" 
     app.add_handler(CommandHandler("wol", wol))
     app.run_polling()
 
