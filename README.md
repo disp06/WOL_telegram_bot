@@ -19,7 +19,7 @@ Telegram-bot for remotely waking up computers in a server's local network using 
    pip install -r requirements.txt
 4. In the Telegram app. Create a bot via @BotFather and get bot token.
 
-5. Send a message to your bot.
+5. Send a simple random message to your bot.
 
 6. Visit this URL:
    https://api.telegram.org/botBOT_TOKEN/getUpdates
