@@ -21,8 +21,7 @@ Telegram-bot for remotely waking up computers in a server's local network using 
 
 5. Send a simple random message to your bot.
 
-6. Visit this URL:
-   Replace BOT_TOKEN to your actual token in URL below:
+6. Replace BOT_TOKEN to your actual token in URL below and visit:
    https://api.telegram.org/botBOT_TOKEN/getUpdates
    Find your chat_id: Look for the "id" field in the JSON response.
    
