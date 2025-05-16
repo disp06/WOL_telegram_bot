@@ -3,11 +3,11 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 from wakeonlan import send_magic_packet
 
-# Настройки
+# Config
 BOT_TOKEN = "token"  # Example: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
 ALLOWED_CHAT_IDS = [YOUR_CHAT_ID]  # Example: [123456789]
 
-# Логирование
+# Log
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 
 async def wol(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
