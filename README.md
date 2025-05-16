@@ -36,4 +36,5 @@ Telegram-bot for remotely waking up computers in a server's local network using 
 The MAC address must be specified for the computer you want to wake up from sleep.
 
 🛠️NOTE: Remotely waking-up-computers MUST BE in a server local network use only!
+
 ⚡⚡⚡VERY IMPORTANT FOR USE: Remotely waking-up-computers MUST BE config for Wake-on-LAN, that allows a computer to be turned on or awakened from sleep mode by a network message!
