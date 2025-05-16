@@ -25,5 +25,5 @@ Telegram-bot for remotely waking up computers in a server's local network using 
    python wol_bot.py
 
 4. Send the command to your bot:
-/wol AA:BB:CC:DD:EE:FF
+"/wol AA:BB:CC:DD:EE:FF"
 MAC-adress must be config PC's MAC
